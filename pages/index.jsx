@@ -120,7 +120,7 @@ export default function Home() {
               <Tutorial
                 content="Learn the process of UI / UX design.  In this tutorial you will learn how a professional designer builds a full website design from scratch following the process of user experience and user interface. The video covers wireframing, prototyping, and designing in Figma.
                 "
-                url="https://www.youtube.com/embed/ANj2bgRBzGI"
+                url="https://www.youtube.com/embed/RYDiDpW2VkM"
                 title="Create a Design system in Figma"
                 course="dESIGN SYSTEM"
               />
