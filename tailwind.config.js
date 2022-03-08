@@ -1,5 +1,5 @@
 module.exports = {
-  mode:"jit",
+  mode: 'jit',
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -8,7 +8,9 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require("@tailwindcss/line-clamp"),
-    require("tailwind-scrollbar-hide")
+    require('@tailwindcss/line-clamp'),
+    require('tailwind-scrollbar-hide'),
+    require('@tailwindcss/forms'),
+    require('tw-elements/dist/plugin'),
   ],
-}
+};
